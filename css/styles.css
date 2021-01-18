@@ -1,0 +1,176 @@
+body{
+  border: 0;
+  }
+a{
+  margin: 0;
+  padding-top: 50px;
+  }
+  h1, h3{
+  color: #4D555E;
+padding-top: 30px;
+font-weight: 700;
+}
+p{
+  color: #BCC0C3;
+  font-weight: 400;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+#center p{
+  color: #BCC0C3;
+  font-weight: 400;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 50px;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+#companies{
+text-align: center;
+padding: 0 30px;
+}
+#footer-top{
+  padding-top: 50px;
+  text-align: center;
+  padding-bottom: 200px;
+}
+#footer{
+  background-color: #F5F6F8 ;
+  color: #95999C;
+  font-family: 'Noto Sans KR', sans-serif;
+
+}
+#header{
+  background-image: url('/images/bg-header-desktop.png');
+  font-family: 'Noto Sans KR', sans-serif;
+  text-align: center;
+  padding-top: 100px;
+}
+#text-area1{
+  padding-top: 100px;
+  text-align: center;
+  padding-bottom: 70px;
+}
+#text-area2{
+  padding-top: 200px;
+  text-align: center;
+  padding-bottom: 80px;
+}
+#tri-logo{
+  text-align: center;
+  margin: 40px;
+  padding-bottom: 100px;
+}
+
+
+.bg1{
+    height: 300px;
+    object-fit: cover;
+
+}
+  .btn1{
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 17px;
+    background: #26BBA5;
+    padding: 10px 25px 10px 25px;
+    text-decoration: none;
+    border: 0;
+    box-shadow: 2px 10px #DAF6E8;
+    margin: 0 20px;
+  }
+
+
+  .btn1:hover {
+    background: #4ce0ca;
+    text-decoration: none;
+  }
+  .btn2 {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 17px;
+  background: #6174FE;
+  padding: 10px 25px 10px 25px;
+  text-decoration: none;
+  border: 0;
+  box-shadow: 2px 8px #c5ccf7;
+  margin: 0 20px;
+}
+
+.btn2:hover {
+  background: #7685e3;
+  text-decoration: none;
+}
+.company-logo{
+  margin: 40px;
+}
+.comp-img{
+  float: left;
+  margin-right: 30px;
+  position: relative;
+  right: 30px;
+}
+.footer-top-text{
+  padding:20px 300px 80px;
+}
+.foot-text{
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 0;
+  padding-right: 0;
+  line-height: 0;
+}
+.footlogo{
+position: relative;
+left: 400px;
+bottom: 100px;
+margin-left: 500px;
+
+}
+.logo-footer{
+  width: 12%;
+  float: left;
+  padding: 50px;
+  padding-top: 100px;
+padding-bottom: 180px;
+}
+.roww1{
+  padding-top: 50px;
+}
+.text2{
+  padding-left: 300px;
+  padding-right: 300px;
+}
+.tex1{
+  padding-right: 150px;
+}
+#changer{
+  padding-right: 100px;
+}
+.tri-text{
+  font-size: 1rem;
+  padding-left:50px;
+   padding-right: 50px;
+}
+@media (min-width: 950px) {
+  h1{
+    color: black;
+  }
+    #footer {
+        background: url('images/bg-header-mobile.png');
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #header{
+    background-image: url('images/bg-header-desktop.png');
+    }
+}
